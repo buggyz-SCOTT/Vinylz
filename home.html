@@ -5,7 +5,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <title>VINYL - Home</title>
+  <title>VINYL — Home</title>
 
   <link rel="stylesheet" href="home.css" />
   <meta name="theme-color" content="#0b0b0d" />
@@ -24,7 +24,7 @@
 
     <nav class="navbar-links" id="navbarLinks">
       <a href="home.html" class="active">Home</a>
-      <a href="search.html">Catalogo</a>
+      <a href="search.html">Catálogo</a>
       <a href="timeline.html">Timeline</a>
       <a href="collections.html">Colecoes</a>
       <a href="insights.html">Insights</a>
@@ -33,13 +33,13 @@
 
     <div class="navbar-actions">
 
-      <button type="button" class="notification-btn" id="openNotificationsBtn" aria-label="Abrir notificacoes">
-        <span class="notification-icon">!</span>
+      <button type="button" class="notification-btn" id="openNotificationsBtn" aria-label="Abrir notificações">
+        <span class="notification-icon">🔔</span>
         <span class="notification-badge" id="notificationBadge" hidden>0</span>
       </button>
 
       <button type="button" class="dm-btn" id="openMessagesBtn" aria-label="Abrir mensagens">
-        DM
+        ✉️
       </button>
 
       <a href="profile.html" class="navbar-profile">
@@ -56,7 +56,7 @@
       </button>
 
       <button type="button" class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Abrir menu">
-        Menu
+        ☰
       </button>
 
     </div>
@@ -106,12 +106,12 @@
 
         <div class="shortcut-list">
           <a href="search.html">
-            <span>SE</span>
-            Buscar musicas
+            <span>🔎</span>
+            Buscar músicas
           </a>
 
           <a href="timeline.html">
-            <span>TL</span>
+            <span>⚡</span>
             Timeline
           </a>
 
@@ -126,12 +126,12 @@
           </a>
 
           <a href="messages.html">
-            <span>DM</span>
+            <span>💬</span>
             Mensagens
           </a>
 
           <a href="profile.html">
-            <span>PF</span>
+            <span>✏️</span>
             Editar perfil
           </a>
         </div>
@@ -164,12 +164,12 @@
           </h1>
 
           <p>
-            Poste reviews, favorite artistas, descubra sons novos e veja o que sua comunidade esta ouvindo.
+            Poste reviews, favorite artistas, descubra sons novos e veja o que sua comunidade está ouvindo.
           </p>
 
           <div class="hero-actions">
             <a href="#postForm" class="hero-primary">Criar post</a>
-            <a href="search.html" class="hero-secondary">Explorar catalogo</a>
+            <a href="search.html" class="hero-secondary">Explorar catálogo</a>
           </div>
 
           <div class="hero-stats">
@@ -180,7 +180,7 @@
 
             <div>
               <strong id="heroUsersCount">0</strong>
-              <span>usuarios</span>
+              <span>usuários</span>
             </div>
 
             <div>
@@ -202,7 +202,7 @@
         <div class="section-header">
           <div>
             <h2>Stories</h2>
-            <p>Momentos rapidos da comunidade</p>
+            <p>Momentos rápidos da comunidade</p>
           </div>
 
           <button type="button" id="createStoryBtn">
@@ -227,7 +227,7 @@
           />
 
           <div>
-            <strong id="composerName">Voce</strong>
+            <strong id="composerName">Você</strong>
             <span>Compartilhar com a comunidade</span>
           </div>
         </div>
@@ -236,7 +236,7 @@
 
           <textarea
             id="postInput"
-            placeholder="O que voce esta ouvindo agora?"
+            placeholder="O que você está ouvindo agora?"
             maxlength="500"
           ></textarea>
 
@@ -246,19 +246,19 @@
 
           <div class="attached-music-preview" id="attachedMusicPreview" hidden>
             <img
-              src="https://placehold.co/160x160/111111/ff4d6d?text=music"
+              src="https://placehold.co/160x160/111111/ff4d6d?text=♪"
               alt="Capa"
               id="attachedMusicImage"
             />
 
             <div class="attached-music-info">
-              <span class="attached-music-type" id="attachedMusicType">Musica</span>
-              <strong id="attachedMusicTitle">Nome da musica</strong>
+              <span class="attached-music-type" id="attachedMusicType">Música</span>
+              <strong id="attachedMusicTitle">Nome da música</strong>
               <p id="attachedMusicSubtitle">Artista</p>
             </div>
 
-            <button type="button" id="removeAttachedMusicBtn" aria-label="Remover musica">
-              x
+            <button type="button" id="removeAttachedMusicBtn" aria-label="Remover música">
+              ×
             </button>
           </div>
 
@@ -266,7 +266,7 @@
 
             <div class="composer-tools">
               <button type="button" id="addMusicBtn">
-                Musica
+                ♪ Música
               </button>
 
               <button type="button" id="addImageBtn">
@@ -290,7 +290,7 @@
         <div class="section-header">
           <div>
             <h2>Feed</h2>
-            <p>O que esta rolando agora</p>
+            <p>O que está rolando agora</p>
           </div>
 
           <select id="feedFilter" aria-label="Filtro do feed">
@@ -312,7 +312,7 @@
     <aside class="right-sidebar">
 
       <section class="sidebar-card">
-        <h3>Notificacoes recentes</h3>
+        <h3>Notificações recentes</h3>
 
         <div id="miniNotificationsList" class="mini-notifications-list">
           <p class="empty-state">Carregando...</p>
@@ -324,10 +324,10 @@
       </section>
 
       <section class="sidebar-card">
-        <h3>Sugestoes</h3>
+        <h3>Sugestões</h3>
 
         <div id="suggestionsList" class="suggestions-list">
-          <p class="empty-state">Carregando sugestoes...</p>
+          <p class="empty-state">Carregando sugestões...</p>
         </div>
       </section>
 
@@ -336,7 +336,7 @@
 
         <div id="nowPlayingBox">
           <p class="empty-state">
-            Conecte seu Spotify para mostrar sua musica atual.
+            Conecte seu Spotify para mostrar sua música atual.
           </p>
         </div>
       </section>
@@ -353,7 +353,7 @@
 
   </main>
 
-  <!-- MODAL DE NOTIFICACOES -->
+  <!-- MODAL DE NOTIFICAÇÕES -->
   <div class="notifications-modal" id="notificationsModal" hidden>
 
     <div class="notifications-backdrop" id="closeNotificationsBackdrop"></div>
@@ -362,12 +362,12 @@
 
       <header class="notifications-header">
         <div>
-          <h2>Notificacoes</h2>
-          <p>Pedidos para seguir, novos seguidores e interacoes.</p>
+          <h2>Notificações</h2>
+          <p>Pedidos para seguir, novos seguidores e interações.</p>
         </div>
 
-        <button type="button" id="closeNotificationsBtn" aria-label="Fechar notificacoes">
-          x
+        <button type="button" id="closeNotificationsBtn" aria-label="Fechar notificações">
+          ×
         </button>
       </header>
 
@@ -381,12 +381,12 @@
         </button>
 
         <button type="button" data-notification-filter="unread">
-          Nao lidas
+          Não lidas
         </button>
       </div>
 
       <div id="notificationsList" class="notifications-list">
-        <p class="empty-state">Carregando notificacoes...</p>
+        <p class="empty-state">Carregando notificações...</p>
       </div>
 
     </section>
@@ -404,7 +404,7 @@
         <h2>Novo story</h2>
 
         <button type="button" id="closeStoryModalBtn" aria-label="Fechar">
-          x
+          ×
         </button>
       </header>
 
@@ -412,7 +412,7 @@
 
         <textarea
           id="storyInput"
-          placeholder="Compartilhe uma musica, frase ou momento..."
+          placeholder="Compartilhe uma música, frase ou momento..."
           maxlength="220"
         ></textarea>
 
@@ -445,13 +445,13 @@
           />
 
           <div>
-            <strong id="storyViewerName">Usuario</strong>
+            <strong id="storyViewerName">Usuário</strong>
             <span id="storyViewerTime">agora</span>
           </div>
         </div>
 
         <button type="button" id="closeStoryViewerBtn" aria-label="Fechar story">
-          x
+          ×
         </button>
       </header>
 
@@ -463,34 +463,34 @@
         </p>
 
         <div class="story-viewer-music" id="storyViewerMusic" hidden>
-          <div class="story-music-icon">Music</div>
+          <div class="story-music-icon">♪</div>
 
           <div>
-            <strong id="storyViewerMusicTitle">Musica</strong>
+            <strong id="storyViewerMusicTitle">Música</strong>
             <span id="storyViewerMusicArtist">Artista</span>
           </div>
         </div>
       </div>
 
       <div class="story-viewer-reactions">
-        <button type="button" data-story-reaction="heart">Heart</button>
-        <button type="button" data-story-reaction="fire">Fire</button>
-        <button type="button" data-story-reaction="cry">Cry</button>
-        <button type="button" data-story-reaction="music">Music</button>
+        <button type="button" data-story-reaction="❤️">❤️</button>
+        <button type="button" data-story-reaction="🔥">🔥</button>
+        <button type="button" data-story-reaction="😭">😭</button>
+        <button type="button" data-story-reaction="🎧">🎧</button>
       </div>
 
       <button type="button" class="story-nav-btn story-prev-btn" id="prevStoryBtn">
-        Prev
+        ‹
       </button>
 
       <button type="button" class="story-nav-btn story-next-btn" id="nextStoryBtn">
-        Next
+        ›
       </button>
 
     </section>
   </div>
 
-  <!-- MODAL DE ANEXAR MUSICA -->
+  <!-- MODAL DE ANEXAR MÚSICA -->
   <div class="music-picker-modal" id="musicPickerModal" hidden>
 
     <div class="music-picker-backdrop" id="closeMusicPickerBackdrop"></div>
@@ -500,17 +500,17 @@
       <header class="music-picker-header">
         <div>
           <h2>Anexar ao post</h2>
-          <p>Busque uma musica, album ou artista para deixar seu post mais Vinyl.</p>
+          <p>Busque uma música, álbum ou artista para deixar seu post mais Vinyl.</p>
         </div>
 
         <button type="button" id="closeMusicPickerBtn" aria-label="Fechar">
-          x
+          ×
         </button>
       </header>
 
       <div class="music-picker-tabs">
-        <button type="button" class="active" data-music-type="track">Musicas</button>
-        <button type="button" data-music-type="album">Albuns</button>
+        <button type="button" class="active" data-music-type="track">Músicas</button>
+        <button type="button" data-music-type="album">Álbuns</button>
         <button type="button" data-music-type="artist">Artistas</button>
       </div>
 
@@ -549,7 +549,7 @@
         </div>
 
         <button type="button" id="closeChatWidgetBtn" aria-label="Fechar mensagens">
-          x
+          ×
         </button>
       </header>
 
@@ -557,7 +557,7 @@
         <input
           type="text"
           id="chatSearchInput"
-          placeholder="Buscar usuario..."
+          placeholder="Buscar usuário..."
           autocomplete="off"
         />
       </div>
